@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Muilwijk.org - Archief belevingen</title>
+<!-- TemplateEndEditable -->
+<meta name="Keywords" content="muilwijk, canada, alberta, lacombe, emigratie, emigration, kees, annie, mark, christiaan, wijngaarden" />
+<meta name="Description" content="Emigratie en belevingen van de familie Muilwijk naar Lacombe, Alberta, Canada." />
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+
+<style type="text/css">
+<!--
+@import url("../images/fireworks_nav/navigatie.css");
+
+@import url("../images/fireworks_nav/navigatie.css");
+
+@import url("../images/fireworks_nav/navigatie.css");
+
+@import url("../images/fireworks_nav/navigatie.css");
+
+@import url("../images/fireworks_nav/navigatie.css");
+
+@import url("../images/fireworks_nav/navigatie.css");
+
+body,td,th {
+	font-size: 9px;
+}
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: underline;
+	color: #C10000;
+}
+a:active {
+	text-decoration: none;
+	color: #C10000;
+}
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+-->
+</style>
+<script language="JavaScript1.2" type="text/javascript" src="../images/navigatie/mm_css_menu.js"></script>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<link href="standard_v1.css" rel="stylesheet" type="text/css" />
+<link href="standard_v1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="MM_preloadImages('../images/navigatie/nav_contact_on.jpg','../images/navigatie/nav_archief_on.jpg','../images/navigatie/nav_gastenboek_on.jpg','../images/navigatie/nav_contact_on.jpg','../images/navigatie/nav_holland_on.jpg','../images/fireworks_nav/','../images/navigatie/nav_canada_on.jpg','../images/navigatie/nav_nieuws_on.jpg')">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#006699">
+  <tr valign="top">
+    <td><div align="center">
+      <a name="bovenkant" id="bovenkant"></a>
+      <table width="736" height="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr valign="top">
+          <td width="18" rowspan="3" background="../images/elements/side_left.jpg">&nbsp;</td>
+          <td><div id="FWTableContainer1474234594">
+            <table border="0" cellpadding="0" cellspacing="0" width="700">
+              <!-- fwtable fwsrc="navigatie.png" fwbase="navigatie.png" fwstyle="Dreamweaver" fwdocid = "1474234594" fwnested="0" -->
+              <tr>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="49" height="1" border="0" id="undefined_2" /></td>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="101" height="1" border="0" id="undefined_2" /></td>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="102" height="1" border="0" id="undefined_2" /></td>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="102" height="1" border="0" id="undefined_2" /></td>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="100" height="1" border="0" id="undefined_2" /></td>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="102" height="1" border="0" id="undefined_2" /></td>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="101" height="1" border="0" id="undefined_2" /></td>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="8" height="1" border="0" id="undefined_2" /></td>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="35" height="1" border="0" id="undefined_2" /></td>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="1" height="1" border="0" id="undefined_2" /></td>
+              </tr>
+              <tr>
+                <td colspan="9"><img name="navigatie_r1_c1" src="../images/fireworks_nav/navigatie_r1_c1.png" width="700" height="123" border="0" id="navigatie_r1_c1" usemap="#m_navigatie_r1_c1" alt="" /></td>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="1" height="123" border="0" id="undefined_2" /></td>
+              </tr>
+              <tr>
+                <td rowspan="2"><img name="navigatie_r2_c1" src="../images/fireworks_nav/navigatie_r2_c1.png" width="49" height="55" border="0" id="navigatie_r2_c1" alt="" /></td>
+                <td rowspan="2"><img name="navigatie_r2_c2" src="../images/fireworks_nav/navigatie_r2_c2.png" width="101" height="55" border="0" id="navigatie_r2_c2" usemap="#m_navigatie_r2_c2" alt="" /></td>
+                <td rowspan="2"><img name="navigatie_r2_c3" src="../images/fireworks_nav/navigatie_r2_c3.png" width="102" height="55" border="0" id="navigatie_r2_c3" usemap="#m_navigatie_r2_c3" alt="" /></td>
+                <td rowspan="2"><img name="navigatie_r2_c4" src="../images/fireworks_nav/navigatie_r2_c4.png" width="102" height="55" border="0" id="navigatie_r2_c4" usemap="#m_navigatie_r2_c4" alt="" /></td>
+                <td rowspan="2"><img name="navigatie_r2_c5" src="../images/fireworks_nav/navigatie_r2_c5.png" width="100" height="55" border="0" id="navigatie_r2_c5" usemap="#m_navigatie_r2_c5" alt="" /></td>
+                <td rowspan="2"><img name="navigatie_r2_c6" src="../images/fireworks_nav/navigatie_r2_c6.png" width="102" height="55" border="0" id="navigatie_r2_c6" usemap="#m_navigatie_r2_c6" alt="" /></td>
+                <td rowspan="2"><img name="navigatie_r2_c7" src="../images/fireworks_nav/navigatie_r2_c7.png" width="101" height="55" border="0" id="navigatie_r2_c7" usemap="#m_navigatie_r2_c7" alt="" /></td>
+                <td colspan="2"><img name="navigatie_r2_c8" src="../images/fireworks_nav/navigatie_r2_c8.png" width="43" height="25" border="0" id="navigatie_r2_c8" alt="" /></td>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="1" height="25" border="0" id="undefined_2" /></td>
+              </tr>
+              <tr>
+                <td><img name="navigatie_r3_c8" src="../images/fireworks_nav/navigatie_r3_c8.png" width="8" height="30" border="0" id="navigatie_r3_c8" alt="" /></td>
+                <td><a href="#"><img src="../images/fireworks_nav/navigatie_r3_c9.png" alt="INHOUDSOPGAVE" name="navigatie_r3_c9" width="35" height="30" border="0" id="navigatie_r3_c9" onclick="MM_openBrWindow('../sitemap.html','INHOUDSOPGAVE','width=350,height=520')" /></a></td>
+                <td><img src="../images/fireworks_nav/spacer.gif" alt="" name="undefined_2" width="1" height="30" border="0" id="undefined_2" /></td>
+              </tr>
+            </table>
+            <map name="m_navigatie_r1_c1" id="m_navigatie_r1_c1">
+              <area shape="rect" coords="39,74,256,121" href="../index.html" title="Ga naar: Startpagina" alt="Ga naar: Startpagina" />
+            </map>
+            <map name="m_navigatie_r2_c2" id="m_navigatie_r2_c2">
+              <area shape="rect" coords="4,0,99,28" href="javascript:;" target="_top" alt="Menu: Canada" title="Menu: Canada" onclick="MM_nbGroup('down','group1','navigatie_r2_c2','',1)"  onmouseover="MM_menuShowMenu('MMMenuContainer0210172127_2', 'MMMenu0210172127_2',1,24,'navigatie_r2_c2');MM_nbGroup('over','navigatie_r2_c2','../images/navigatie/nav_holland_on.jpg','../images/fireworks_nav/',1);" onmouseout="MM_nbGroup('out');MM_menuStartTimeout(500);">
+            </map>
+            <map name="m_navigatie_r2_c3" id="m_navigatie_r2_c3">
+              <area shape="rect" coords="4,0,99,28" href="javascript:;" target="_top" alt="Menu: Holland" title="Menu: Holland" onclick="MM_nbGroup('down','group1','navigatie_r2_c3','',1)"  onmouseover="MM_menuShowMenu('MMMenuContainer0210174353_0', 'MMMenu0210174353_0',1,24,'navigatie_r2_c3');MM_nbGroup('over','navigatie_r2_c3','../images/navigatie/nav_canada_on.jpg','../images/fireworks_nav/',1);" onmouseout="MM_nbGroup('out');MM_menuStartTimeout(500);">
+            </map>
+            <map name="m_navigatie_r2_c4" id="m_navigatie_r2_c4">
+              <area shape="rect" coords="3,5,99,38" href="../belevingen/index.html" target="_top" alt="Ga naar: Laatste Belevingen" title="Ga naar: Laatste Belevingen" onclick="MM_nbGroup('down','group1','navigatie_r2_c4','',1)"  onmouseover="MM_nbGroup('over','navigatie_r2_c4','../images/navigatie/nav_nieuws_on.jpg','../images/fireworks_nav/',1);" onmouseout="MM_nbGroup('out');">
+            </map>
+            <map name="m_navigatie_r2_c5" id="m_navigatie_r2_c5">
+              <area shape="rect" coords="3,11,98,50" href="../archief/index.html" target="_top" alt="Ga naar: Archief" title="Ga naar: Archief" onclick="MM_nbGroup('down','group1','navigatie_r2_c5','',1)"  onmouseover="MM_nbGroup('over','navigatie_r2_c5','../images/navigatie/nav_archief_on.jpg','../images/fireworks_nav/',1);" onmouseout="MM_nbGroup('out');">
+            </map>
+            <map name="m_navigatie_r2_c6" id="m_navigatie_r2_c6">
+              <area shape="rect" coords="3,15,100,56" href="../gastenboek/index.html" target="_top" alt="Ga naar: Gastenboek" title="Ga naar: Gastenboek" onclick="MM_nbGroup('down','group1','navigatie_r2_c6','',1)"  onmouseover="MM_nbGroup('over','navigatie_r2_c6','../images/navigatie/nav_gastenboek_on.jpg','../images/fireworks_nav/',1);" onmouseout="MM_nbGroup('out');">
+            </map>
+            <map name="m_navigatie_r2_c7" id="m_navigatie_r2_c7">
+              <area shape="rect" coords="3,15,99,56" href="../contact/index.html" target="_top" alt="Ga naar: Contact" title="Ga naar: Contact" onclick="MM_nbGroup('down','group1','navigatie_r2_c7','',1)"  onmouseover="MM_nbGroup('over','navigatie_r2_c7','../images/navigatie/nav_contact_on.jpg','../images/fireworks_nav/',1);" onmouseout="MM_nbGroup('out');">
+            </map>
+            <div id="MMMenuContainer0210172127_2">
+              <div id="MMMenu0210172127_2" onmouseout="MM_menuStartTimeout(500);" onmouseover="MM_menuResetTimeout();"> <a href="../oude_boerderij/index.html" id="MMMenu0210172127_2_Item_0" class="MMMIFVStyleMMMenu0210172127_2" onmouseover="MM_menuOverMenuItem('MMMenu0210172127_2');"> BOERDERIJ </a> <a href="../afscheidsfeest/index.html" id="MMMenu0210172127_2_Item_1" class="MMMIVStyleMMMenu0210172127_2" onmouseover="MM_menuOverMenuItem('MMMenu0210172127_2');"> AFSCHEID </a> <a href="../emigratie/index.html" id="MMMenu0210172127_2_Item_2" class="MMMIVStyleMMMenu0210172127_2" onmouseover="MM_menuOverMenuItem('MMMenu0210172127_2');"> EMIGRATIE </a> </div>
+            </div>
+            <div id="MMMenuContainer0210174353_0">
+              <div id="MMMenu0210174353_0" onmouseout="MM_menuStartTimeout(500);" onmouseover="MM_menuResetTimeout();"> <a href="../boerderij/index.html" id="MMMenu0210174353_0_Item_0" class="MMMIFVStyleMMMenu0210174353_0" onmouseover="MM_menuOverMenuItem('MMMenu0210174353_0');"> BOERDERIJ </a> <a href="../lacombe/index.html" id="MMMenu0210174353_0_Item_1" class="MMMIVStyleMMMenu0210174353_0" onmouseover="MM_menuOverMenuItem('MMMenu0210174353_0');"> LACOMBE </a> <a href="../canada/index.html" id="MMMenu0210174353_0_Item_2" class="MMMIVStyleMMMenu0210174353_0" onmouseover="MM_menuOverMenuItem('MMMenu0210174353_0');"> CANADA </a> </div>
+            </div>
+          </div></td>
+          <td width="18" rowspan="3" background="../images/elements/side_right.jpg">&nbsp;</td>
+        </tr>
+        
+        <tr>
+          <td height="28">            <table width="100%" border="0" cellspacing="10" cellpadding="0">
+              <tr>
+                <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="12" height="12"><img src="../images/elements/border_red_lt.jpg" width="12" height="12" /></td>
+                    <td height="12" colspan="3" bgcolor="#CC3433">&nbsp;</td>
+                    <td width="12" height="12"><img src="../images/elements/border_red_rt.jpg" width="12" height="12" /></td>
+                  </tr>
+                  <tr bgcolor="#CC3433">
+                    <td width="12">&nbsp;</td>
+                    <td width="449"><p align="center" class="text_title">Welkom in het archief.</p>
+                      <p align="center" class="text_normal">Zit je nog eens lekker te bekijken hoe het allemaal begon of ben je nieuwsgierig wat er vorige maand ook al weer gebeurde, dan is dit &quot;the place to be&quot;. </p>
+                      <p align="center" class="text_normal">Groetjes   uit het land van de &ldquo;Brightness&rdquo;: <br />
+                        Kees, Annie, Mark en   Christiaan</p>                      </td>
+                    <td width="91">&nbsp;</td>
+                    <td width="117"><p class="text_normal"><img src="../archief/archief.jpg" alt="archief" width="117" height="176" /></p>                      </td>
+                    <td width="12">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td width="12" height="12"><img src="../images/elements/border_red_lo.jpg" width="12" height="12" /></td>
+                    <td height="12" colspan="3" bgcolor="#CC3433">&nbsp;</td>
+                    <td width="12" height="12"><img src="../images/elements/border_red_ro.jpg" width="12" height="12" /></td>
+                  </tr>
+                </table></td>
+                </tr>
+              <tr valign="top">
+                <td width="50%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="12" height="12"><img src="../images/elements/border_blue1_lt.jpg" width="12" height="12" /></td>
+                    <td width="100%" height="12" bgcolor="#006699">&nbsp;</td>
+                    <td width="12" height="12"><img src="../images/elements/border_blue1_rt.jpg" width="12" height="12" /></td>
+                  </tr>
+                  <tr>
+                    <td height="100%" colspan="3" bgcolor="#006699" class="text_title">recente belevingen
+                      <hr /></td>
+                  </tr>
+                  <tr>
+                    <td width="12" height="12"><img src="../images/elements/border_blue1_lo.jpg" width="12" height="12" /></td>
+                    <td width="100%" height="12" bgcolor="#006699">&nbsp;</td>
+                    <td width="12" height="12"><img src="../images/elements/border_blue1_ro.jpg" width="12" height="12" /></td>
+                  </tr>
+                </table>
+                  <br />
+                  <!-- TemplateBeginRepeat name="Maanden" -->
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td height="0" rowspan="5"><!-- TemplateBeginEditable name="Illustratie" --><img src="../images/canada_logo_s.png" width="61" height="61" /><!-- TemplateEndEditable --></td>
+                      <td height="6" colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="12" height="6"><img src="../images/elements/border_blue1_lt.jpg" width="12" height="12" /></td>
+                      <td width="100%" height="6" bgcolor="#006699" class="text_small"><!-- TemplateBeginEditable name="Jaar" -->
+                        <div align="right">2006</div>
+                      <!-- TemplateEndEditable --></td>
+                      <td width="12" height="6"><img src="../images/elements/border_blue1_rt.jpg" width="12" height="12" /></td>
+                    </tr>
+                    <tr>
+                      <td width="12" height="6" bgcolor="#006699">&nbsp;</td>
+                      <td width="100%" height="6" bgcolor="#006699" class="text_title"><!-- TemplateBeginEditable name="Titel" -->Augustus &amp; september<!-- TemplateEndEditable --></td>
+                      <td width="12" height="6" bgcolor="#006699">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="6" bgcolor="#006699">&nbsp;</td>
+                      <td height="6" bgcolor="#006699" class="text_normal"><!-- TemplateBeginEditable name="Inhoud" -->
+                        <div align="center">
+                          Vertrek Nederland &amp; aankomst Canada </div>
+                      <!-- TemplateEndEditable --></td>
+                      <td height="6" bgcolor="#006699">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="12" height="6"><img src="../images/elements/border_blue1_lo.jpg" width="12" height="12" /></td>
+                      <td width="100%" height="6" bgcolor="#006699">&nbsp;</td>
+                      <td width="12" height="6"><img src="../images/elements/border_blue1_ro.jpg" width="12" height="12" /></td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                  </table>
+                <!-- TemplateEndRepeat --></td>
+                  <td width="50%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="12" height="12"><img src="../images/elements/border_gray1_lt.jpg" width="12" height="12" /></td>
+                      <td width="100%" height="12" bgcolor="#666666">&nbsp;</td>
+                      <td width="12" height="12"><img src="../images/elements/border_gray1_rt.jpg" width="12" height="12" /></td>
+                    </tr>
+                    <tr bgcolor="#666666">
+                      <td height="100%" colspan="3" class="text_title"><a href="#" onclick="MM_openBrWindow('../media/index.html','VideoAlbum','width=900,height=550')">video archief
+                        </a>
+                        <hr /></td>
+                    </tr>
+                    <tr bgcolor="#666666">
+                      <td height="50%">&nbsp;</td>
+                      <td width="100%" height="50%"><!-- TemplateBeginRepeat name="Video Clips" -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td colspan="3" class="text_title"><!-- TemplateBeginEditable name="Titel Video" -->Pirates of Penzance <!-- TemplateEndEditable --></td>
+                            </tr>
+                          <tr>
+                            <td width="80" rowspan="2" valign="top"><!-- TemplateBeginEditable name="Preview Video" --><img src="../images/canada_logo.png" width="75" height="75" /><!-- TemplateEndEditable --></td>
+                            <td width="10">&nbsp;</td>
+                            <td width="150" class="text_normal"><div align="left"><!-- TemplateBeginEditable name="Specificaties Video" -->
+                              <p>- Duur: 10:00 minuten<br />
+                                - Groote: 30 MB </p>
+                              <!-- TemplateEndEditable --></div></td>
+                          </tr>
+                          <tr>
+                            <td width="10">&nbsp;</td>
+                            <td class="text_normal"><div align="left"><!-- TemplateBeginEditable name="Inhoud Video" -->Mark speelt mee in een theathershow van school <!-- TemplateEndEditable --></div></td>
+                          </tr>
+                        </table>
+                      <!-- TemplateEndRepeat --></td>
+                      <td width="12" height="50%">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="12" height="12"><img src="../images/elements/border_gray1_lo.jpg" width="12" height="12" /></td>
+                      <td width="100%" height="12" bgcolor="#666666"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td>&nbsp;</td>
+                            <td width="35" class="text_small"><a href="#bovenkant">omhoog</a></td>
+                            <td width="30"><img src="../../images/elements/arrow.gif" alt="omhoog" width="7" height="5" /></td>
+                          </tr>
+                      </table></td>
+                      <td width="12" height="12"><img src="../images/elements/border_gray1_ro.jpg" width="12" height="12" /></td>
+                    </tr>
+                  </table>
+                    <br />
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="12" height="12"><img src="../images/elements/border_blue1_lt.jpg" width="12" height="12" /></td>
+                        <td height="12" bgcolor="#006699">&nbsp;</td>
+                        <td width="12" height="12"><img src="../images/elements/border_blue1_rt.jpg" width="12" height="12" /></td>
+                      </tr>
+                      <tr>
+                        <td height="100%" colspan="3" bgcolor="#006699" class="text_title">oudere belevingen
+                        <hr /></td>
+                      </tr>
+                      <tr>
+                        <td width="12" height="100%" bgcolor="#006699">&nbsp;</td>
+                        <td height="100%" bgcolor="#006699"><!-- TemplateBeginRepeat name="Maanden Klein" -->
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td colspan="2" align="left" class="text_title"><div align="left"><!-- TemplateBeginEditable name="Titel Klein" -->augustus &amp; september <!-- TemplateEndEditable --></div></td>
+                            </tr>
+                            <tr>
+                              <td colspan="2" align="left" class="text_normal"><div align="left"><!-- TemplateBeginEditable name="Inhoud" -->Vertrek Nederland &amp; aankomst Canada <!-- TemplateEndEditable --></div></td>
+                            </tr>
+                            <tr>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                            </tr>
+                          </table>
+                        <!-- TemplateEndRepeat --></td>
+                        <td width="12" height="100%" bgcolor="#006699">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td width="12" height="12"><img src="../images/elements/border_blue1_lo.jpg" width="12" height="12" /></td>
+                        <td height="12" bgcolor="#006699"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td>&nbsp;</td>
+                              <td width="35" class="text_small"><a href="#bovenkant">omhoog</a></td>
+                              <td width="5"><img src="../images/elements/arrow.gif" alt="omhoog" width="7" height="5" /></td>
+                            </tr>
+                        </table></td>
+                        <td width="12" height="12"><img src="../images/elements/border_blue1_ro.jpg" width="12" height="12" /></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              
+            </table></td>
+        </tr>
+        <tr>
+          <td><map name="Map4" id="Map4">
+              <area shape="rect" coords="3,23,98,50" href="../archief/index.html" target="_top" onclick="MM_nbGroup('down','group1','navarchief','',1)" onmouseover="MM_nbGroup('over','navarchief','../images/navigatie/nav_archief_on.jpg','',1)" onmouseout="MM_nbGroup('out')" />
+            </map>
+            <map name="Map5" id="Map5">
+              <area shape="rect" coords="3,28,100,55" href="../gastenboek/index.html" target="_top" onclick="MM_nbGroup('down','group1','navgastenboek','',1)" onmouseover="MM_nbGroup('over','navgastenboek','../images/navigatie/nav_gastenboek_on.jpg','',1)" onmouseout="MM_nbGroup('out')" />
+            </map>
+            <map name="Map6" id="Map6">
+              <area shape="rect" coords="4,28,99,55" href="../contact/index.html" target="_top" onclick="MM_nbGroup('down','group1','navcontact','',1)" onmouseover="MM_nbGroup('over','navcontact','../images/navigatie/nav_contact_on.jpg','',1)" onmouseout="MM_nbGroup('out')" />
+            </map></td>
+          </tr>
+      </table>
+    </div></td>
+  </tr>
+</table>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1403928-1";
+urchinTracker();
+</script>
+</body>
+</html>

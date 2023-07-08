@@ -1,0 +1,7 @@
+To: delete these words and put the email address only                           
+Subject: test form
+                                                  
+What is your name?              [name]
+What is your email?             [email]           
+What are your comments?         [comments]
+

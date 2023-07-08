@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script Language="JavaScript">
+//------------------------------------------------------------
+//--  Time Zone Clock                                       --
+//--  The script works both with IE and with Netscape       --
+//------------------------------------------------------------
+//--  Pull variables out and encode into javascript to use  --
+//------------------------------------------------------------
+// Adjust offsets for local machine
+var tzoffset = 7200 + (new Date().getTimezoneOffset()*60) ;// Set JavaScript variable to your server time as seen from client machine location.
+var servertimeOBJ=new Date((1179976850 + tzoffset)*1000);
+servertime="0"
+zone1="Picture Butte"
+zone2="Lacombe"
+var dst1=1
+var dst2=1
+var z1offset=-7
+var z2offset=1
+var z1minoff=0
+var z2minoff=0
+var disp_ampm=0
+//------------------------------------------------------------
+//--  Build our Form to display the time                    --
+//------------------------------------------------------------
+</script>
+<form name=time_for>
+<table><tr>
+<td><input name='time_inp' type=text size=18></td>
+<tr>
+<td><input name='time_inp2' type=text size=18></td></tr>
+</table></form>
+<script Language="JavaScript">
+
+//------------------------------------------------------------
+// Pad the hours/mins/seconds to display 2 digits for each  --
+//------------------------------------------------------------
+
+function padout(number) {
+      return (number < 10) ? '0' + number : number;
+      }
+//------------------------------------------------------------
+// dont pad the hour if we are displaying time in AM/PM Format
+//------------------------------------------------------------
+function padouthour(number) {
+      if (disp_ampm) {
+      	  return (number < 10) ? '  ' + number : number;
+      }
+      else {
+           return (number < 10) ? '0' + number : number;
+      }
+}
+
+function clock_form()
+{
+//------------------------------------------------------------
+//--  Deal with the strange 1/2 hour and 3/4 hour offset    --
+//------------------------------------------------------------
+if (z1minoff==0) z1mindiff=0;
+if (z1minoff==1) z1mindiff=30;
+if (z1minoff==2) z1mindiff=45;
+if (z2minoff==0) z2mindiff=0;
+if (z2minoff==1) z2mindiff=30;
+if (z2minoff==2) z2mindiff=45;
+
+date_=new Date()
+//------------------------------------------------------------
+//-- get the UTC hour and calculate our offset from UTC TIME--
+//------------------------------------------------------------
+var hour_z1=date_.getUTCHours() + z1offset + dst1;
+var hour_z2=date_.getUTCHours() + z2offset + dst2;
+var hour_s=date_.getHours() + tzoffset;
+var min_z1=date_.getMinutes() + z1mindiff;
+var min_z2=date_.getMinutes() + z2mindiff;
+var min_s=date_.getMinutes(); 
+
+// ensure that the clock displays a real time
+if (min_z1>60) { min_z1=min_z1 - 60; hour_z1=hour_z1+1;}
+if (min_z2>60) { min_z2=min_z2 - 60; hour_z2=hour_z2+1;}
+
+if (hour_z1>23) hour_z1=(hour_z1) - 24;
+if (hour_z2>23) hour_z2=hour_z2 - 24;
+if (hour_z1<0) hour_z1=hour_z1 + 24;
+if (hour_z2<0) hour_z2=hour_z2 + 24;
+min_z1=padout(min_z1);
+min_z2=padout(min_z2);
+min_s=padout(min_s);
+
+var sec_=padout(date_.getSeconds());
+
+//------------------------------------------------------------
+//-- Change to AM/PM display if selected                    --
+//------------------------------------------------------------
+var z1ampm="";
+var z2ampm="";
+if (disp_ampm) {
+	z1ampm = (hour_z1 > 11)?" PM":" AM";
+	hour_z1 %= 12;
+	hour_z1 = (hour_z1 < 1)?hour_z1+12:hour_z1;
+	
+	z2ampm = (hour_z2 > 11)?" PM":" AM";
+	hour_z2 %= 12;
+	hour_z2 = (hour_z2 < 1)?hour_z2+12:hour_z2;
+
+}
+//------------------------------------------------------------
+//--  build our time strings for display                    --
+//------------------------------------------------------------
+var dststr1="";
+var dststr2="";
+if (dst1) {dststr1=" DST";}
+if (dst2) {dststr2=" DST";}
+var time_z1=padouthour(hour_z1)+":"+min_z1+":"+sec_+ z1ampm + " "+zone1+dststr1;
+document.time_for.time_inp.value=time_z1;
+
+var time_z2=padouthour(hour_z2)+":"+min_z2+":"+sec_ + z2ampm + " "+zone2+dststr2;
+document.time_for.time_inp2.value=time_z2;
+if (servertime==1){
+document.time_for.servertime.value=padouthour(hour_s)+":"+min_s+":"+sec_ +" Server Time";
+}
+}
+
+clock_form()
+
+//------------------------------------------------------------
+//-- Set the update frequency                               --
+//------------------------------------------------------------
+time_int=window.setInterval("clock_form()",1000)
+</script>
+</body>
+</html>

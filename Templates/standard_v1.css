@@ -1,0 +1,70 @@
+.text_normal {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11.5px;
+	color: #FFFFFF;
+	text-transform: none;
+	font-weight: normal;
+	letter-spacing: normal;
+}
+.text_title {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1mm;
+}
+.positie {
+	position: fixed;
+}
+.text_small {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.text_title_blue {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #006699;
+	letter-spacing: 1mm;
+	text-align: center;
+}
+.text_normal_blue {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11.5px;
+	font-weight: normal;
+	color: #006699;
+	letter-spacing: normal;
+	text-transform: none;
+}
+.text_small_blue {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: none;
+	color: #006699;
+	letter-spacing: normal;
+}
+
+.text_normal-large_blue {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12.5px;
+	color: #006699;
+	text-transform: none;
+	letter-spacing: normal;
+	font-weight: normal;
+}
+
+.text_title-large_blue {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #006699;
+	text-transform: uppercase;
+	letter-spacing: 1mm;
+	text-align: center;
+}

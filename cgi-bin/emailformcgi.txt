@@ -1,0 +1,19 @@
+To: mark@muilwijk.org
+Subject: Membership Registration Form
+                                                  
+First Name: [name]
+Last Name: [surname]
+Street: [street]
+City/Town: [city]
+Postal Code: [postalcode]
+Phone: [phone]
+Mobile Phone: [mobile]
+Fax: [fax]
+E-mail: [email]
+Website: [website]
+Do you own one or more Friesian horses? [question1]
+How long have you been involved with horses? [question2]
+Do you ride under saddle or with a carriage? [question3]
+Do you sell Friesian Horses and would you like to be included on this website's sellers list? [question4]
+
+
